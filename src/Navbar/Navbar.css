@@ -1,0 +1,129 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  z-index: 100;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar.navbar-hidden {
+  transform: translateY(-100%);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin-right: 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.navbar-link:hover,
+.navbar-link.active {
+  border-color: black;
+}
+
+.navbar-mobile-menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-mobile-menu-icon.active {
+  transform: rotate(90deg) scale(1.2);
+}
+
+.navbar-mobile-menu {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.navbar-mobile-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-mobile-links li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-content {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-link {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: none;
+  }
+
+  .navbar-mobile-menu-icon {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .navbar-mobile-menu {
+    position: relative;
+    top: auto;
+    padding: 0;
+  }
+
+  .navbar-mobile-links {
+    flex-direction: column;
+  }
+
+  .navbar-mobile-links li {
+    margin: 0;
+  }
+
+  .navbar-mobile-links a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+  }
+}
