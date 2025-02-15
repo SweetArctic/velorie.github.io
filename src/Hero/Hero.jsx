@@ -90,9 +90,6 @@ const Hero = () => {
         </div>
         <img className='hero-image' src="https://plus.unsplash.com/premium_photo-1661726457110-c43a88d74567?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFrZSUyMHVwfGVufDB8fDB8fHww" alt="Maquillaje" />
       </section>
-      <section className="hero-section hero-section-footer" ref={el => sectionRefs.current[3] = el}>
-        <Footer />
-      </section>
     </div>
   );
 };
