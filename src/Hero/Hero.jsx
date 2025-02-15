@@ -68,9 +68,18 @@ const Hero = () => {
       <section className="hero-section hero-section-2" ref={el => sectionRefs.current[1] = el}>
         <div className="hero-content">
           <h1>¡Síguenos en Instagram!</h1>
-          <div className="instagram-embed">
-            <iframe src="https://www.instagram.com/veloirev.f/embed" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media" title="Instagram Embed"></iframe>
-          </div>
+          <div className='iframe-container'>
+            <iframe 
+              className="instagram-embed" 
+              src="https://www.instagram.com/veloirev.f/embed" 
+              width="300" 
+              height="380" 
+              allowtransparency="true" 
+              allow="encrypted-media" 
+              title="Instagram Embed"
+              scrolling="no"
+            ></iframe>
+          </div><br />
           <p>Síguenos en Instagram para ver más contenido y novedades.</p>
         </div>
       </section>
@@ -80,6 +89,8 @@ const Hero = () => {
           <p>¿Tienes alguna pregunta o comentario? ¡No dudes en contactarnos!</p>
         </div>
         <img className='hero-image' src="https://plus.unsplash.com/premium_photo-1661726457110-c43a88d74567?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFrZSUyMHVwfGVufDB8fDB8fHww" alt="Maquillaje" />
+      </section>
+      <section className="hero-section hero-section-footer" ref={el => sectionRefs.current[3] = el}>
         <Footer />
       </section>
     </div>

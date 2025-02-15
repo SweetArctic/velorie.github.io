@@ -98,6 +98,12 @@
     color: #ffffff;
 }
   
+.footer_container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
   @media (max-width: 768px) {
     .logo {
       width: 60px;
