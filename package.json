@@ -2,7 +2,7 @@
   "name": "velorie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://velorie.shop/",
+  "homepage": "https://github.com/SweetArctic/velorie.github.io",
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
     "bootstrap": "^5.3.3",
