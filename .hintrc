@@ -27,6 +27,13 @@
           "scrollbar-width: none"
         ]
       }
-    ]
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
+    "meta-viewport": "off"
   }
 }
