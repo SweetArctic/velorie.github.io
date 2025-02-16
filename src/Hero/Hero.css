@@ -7,6 +7,7 @@
   scroll-snap-type: y mandatory;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scroll-behavior: smooth;
 }
 
 .hero-section {
@@ -15,48 +16,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
   scroll-snap-align: start;
   transition: transform 0.3s ease;
 }
 
 .hero-section-1 {
-  background: linear-gradient(to bottom, #fff 30%, #fff1e6);
+  background: linear-gradient(to bottom, #FEF0E6 30%, #fff);
   margin: 0;
-  padding: 0;
 }
 
 .hero-section-2 {
-  background-color: #fff1e6;
+  background-color: #fff;
   margin: 0;
   padding: 0;
+  flex-direction: row-reverse;
 }
 
 .hero-section-3 {
-  background: linear-gradient(to bottom, #fff1e6, #ffffff);
-  margin: 0;
-  padding: 0;
+  background: linear-gradient(to bottom,  #fff, #FEF0E6);
+  z-index: -2;
 }
 
-.hero-content { 
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero-content{
-  margin: 120px 0 0 0;
-  text-align: left;
+.hero-content {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  width: 40%;
 }
 
 .hero-content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
   text-align: center;
-  font-size: 4em;
-  margin-bottom: 20px;
   color: #000000;
   font-family: 'Dream Avenue';
   src: url('./Fonts/dream-avenue.ttf') format('truetype');
@@ -66,8 +59,7 @@
 .hero-content p {
   font-size: 1.2em;
   color: #000000;
-  margin: 0 20px 0 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 .hero-buttons {
@@ -110,52 +102,117 @@
 }
 
 .hero-image {
-  margin-top: 50px;
-  width: 450px;
-  height: auto;
   border-radius: 10px;
 }
 
 .instagram-embed {
-  border: none;
-  display: flex;
+  box-shadow: #000;
+  border: solid #000 1px;
   justify-content: center;
   overflow: hidden;
   border-radius: 10px;
+  width: 450px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-right: 30px;
 }
 
 .iframe-container {
   overflow: hidden;
-  width: 300px;
-  height: 380px;
+}
+
+.lipstick-image {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 50vh;
+  height: auto;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.rimel-image {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  width: 50wh;
+  height: auto;
+  z-index: -1;
+}
+
+.info__container{
+  background-color: hwb(0 0% 100% / 0.6);
+  color: #FEF0E6;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.link{
+  color: #FEF0E6 !important;
+  text-decoration: none !important;
 }
 
 @media (max-width: 768px) {
-  .hero{
-    max-width: max-content;
+  .hero {
+      max-width: max-content;
+  }
+
+  .hero-content {
+      width: 90%;
+      font-size: 10px;
   }
 
   .hero-section {
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
+      flex-direction: column;
+      justify-content: flex-end;
+  }
+
+  .hero-section-2 {
+      justify-content: flex-end;
+  }
+
+  .hero-section-3 {
+      justify-content: flex-end;
   }
 
   .hero-content h1 {
-    font-size: 2em;
+      font-size: 2em;
+      margin: 0;
+      padding: 0;
+      width: 100%;
   }
 
   .hero-content p {
-    font-size: 12px;
+      width: 100%;
   }
 
   .btn-primary,
   .btn-secondary {
-    padding: 12px 25px;
-    font-size: 1em;
+      padding: 12px 25px;
+      font-size: 1em;
   }
 
   .hero-image {
-    width: 250px;
+      width: 250px;
+  }
+
+  .instagram-embed {
+      width: 250px;
+      height: 350px;
+      margin: 0;
+  }
+
+  .rimel-image{
+    width: 500px;
+    bottom: 0;
+  }
+
+  .lipstick-image{
+    width: 150px;
+    top: 15%;
   }
 }

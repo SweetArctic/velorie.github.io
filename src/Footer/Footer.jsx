@@ -12,7 +12,10 @@ const Footer = () => {
       </div>
         <div className="footer__left">
           <h3>Contacto</h3>
-            <img src={pn_svg} alt="phone" width="20" height="20" /> +57 315 592 4590 - +57 315 230 5791
+          <a>
+            <img src={pn_svg} alt="phone" width="20" height="20" />
+            <p>+57 315 592 4590 - +57 315 230 5791</p>
+          </a>
           <a>
             <img src={em_svg} alt="emai" width="20" height="20" />
             <p>veloirev.f@gmail.com</p>
