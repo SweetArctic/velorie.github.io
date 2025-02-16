@@ -8,6 +8,8 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [isVisible, setIsVisible] = useState(true);
+  const [navbarColor, setNavbarColor] = useState("#FEF0E6");
+  const [mobileMenuColor, setMobileMenuColor] = useState("#FEF0E6");
   const location = useLocation();
   const [activeWidth, setActiveWidth] = useState(0);
   const [activeLeft, setActiveLeft] = useState(0);
@@ -29,6 +31,14 @@ const Navbar = () => {
       setActiveWidth(activeLinkRef.current.offsetWidth);
       setActiveLeft(activeLinkRef.current.offsetLeft);
     }
+    requestAnimationFrame(() => {
+      setNavbarColor(
+        location.pathname === "/products" ? "#ECD6D7" : "#FEF0E6"
+      );
+      setMobileMenuColor(
+        location.pathname === "/products" ? "#ECD6D7" : "#FEF0E6"
+      );
+    });
   }, [location.pathname]);
 
   const toggleMobileMenu = () => {
@@ -36,7 +46,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar ${isVisible ? "" : "navbar-hidden"}`}>
+    <nav 
+      className={`navbar ${isVisible ? "" : "navbar-hidden"}`} 
+      style={{ 
+        background: navbarColor, 
+        transition: "background 0.8s ease-in-out, transform 0.3s ease-in-out", 
+        transform: isVisible ? "translateY(0)" : "translateY(-100%)" 
+      }}
+    >
       <div className="navbar-content">
         <div className="navbar-left">
           <Link to="/">
@@ -66,7 +83,14 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`navbar-mobile-menu ${isMobileMenuOpen ? "open" : ""}`}>
+      <div 
+        className={`navbar-mobile-menu ${isMobileMenuOpen ? "open" : ""}`} 
+        style={{ 
+          background: mobileMenuColor, 
+          transition: "background 0.8s ease-in-out, transform 0.3s ease-in-out", 
+          transform: isMobileMenuOpen ? "translateX(0)" : "translateX(-100%)" 
+        }}
+      >
         <ul className="navbar-mobile-links">
           {["/", "/products", "/about", "/contact"].map((path, index) => (
             <li key={index}>

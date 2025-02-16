@@ -3,21 +3,21 @@ import "./Products.css";
 
 const bannerItems = [
   {
-    image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg",
+    image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6",
     name: "Lipstick Red",
     beforePrice: "$25.00",
     afterPrice: "$15.00",
     description: "High-quality matte lipstick with long-lasting effect."
   },
   {
-    image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg",
+    image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6",
     name: "Liquid Foundation",
     beforePrice: "$40.00",
     afterPrice: "$30.00",
     description: "Smooth liquid foundation for a flawless finish."
   },
   {
-    image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg",
+    image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6",
     name: "Eyeshadow Palette",
     beforePrice: "$35.00",
     afterPrice: "$25.00",
@@ -27,30 +27,30 @@ const bannerItems = [
 
 const products = {
   "Marca 1": [
-    { name: "Lip Gloss", price: "$12.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Blush", price: "$18.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Mascara", price: "$22.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Concealer", price: "$20.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Bronzer", price: "$24.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" }
+    { name: "Lip Gloss", price: "$12.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Blush", price: "$18.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Mascara", price: "$22.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Concealer", price: "$20.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Bronzer", price: "$24.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" }
   ],
   "Marca 2": [
-    { name: "Lipstick", price: "$15.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Highlighter", price: "$28.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Eyeliner", price: "$14.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "BB Cream", price: "$26.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" }
+    { name: "Lipstick", price: "$15.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Highlighter", price: "$28.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Eyeliner", price: "$14.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "BB Cream", price: "$26.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" }
   ],
   "Marca 3": [
-    { name: "Primer", price: "$30.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Lip Liner", price: "$10.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Setting Spray", price: "$22.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Brow Gel", price: "$18.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Makeup Sponge", price: "$8.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Contour Kit", price: "$35.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" }
+    { name: "Primer", price: "$30.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Lip Liner", price: "$10.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Setting Spray", price: "$22.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Brow Gel", price: "$18.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Makeup Sponge", price: "$8.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Contour Kit", price: "$35.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" }
   ],
   "Marca 4": [
-    { name: "Compact Powder", price: "$19.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Makeup Remover", price: "$16.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" },
-    { name: "Nail Polish", price: "$12.00", image: "https://c4.wallpaperflare.com/wallpaper/377/893/142/vector-landscape-minimalism-hd-wallpaper-preview.jpg" }
+    { name: "Compact Powder", price: "$19.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Makeup Remover", price: "$16.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" },
+    { name: "Nail Polish", price: "$12.00", image: "https://us.123rf.com/450wm/alexrooss/alexrooss2308/alexrooss230809426/210434220-soft-blush-and-lavender-minimalist-mountain-landscape-wallpaper-ai-generated.jpg?ver=6" }
   ]
 };
 

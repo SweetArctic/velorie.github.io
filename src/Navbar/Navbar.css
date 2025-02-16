@@ -71,18 +71,19 @@
 .navbar-mobile-menu {
   position: fixed;
   top: 0;
-  left: -100%;
+  left: 0;
   width: 85%;
   height: 100vh;
   background-color: #FEF0E6;
   padding-top: 80px;
-  transition: left 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
   display: none;
+  transform: translateX(-100%);
 }
 
 .navbar-mobile-menu.open {
-  left: 0;
+  transform: translateX(0);
 }
 
 .navbar-mobile-links {

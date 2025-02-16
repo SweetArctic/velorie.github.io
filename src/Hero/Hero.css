@@ -212,7 +212,10 @@
   }
 
   .lipstick-image{
-    width: 150px;
-    top: 15%;
+    height: 350px;
+    top: 10%;
+    left: -20%;
+    width: auto;
+    top: 0;
   }
 }
