@@ -2,7 +2,7 @@
   "name": "velorie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "velorie.shop",
+  "homepage": "/",
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
     "bootstrap": "^5.3.3",
