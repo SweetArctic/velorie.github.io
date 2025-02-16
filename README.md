@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# Este proyecto (la pagina web) es de libre uso y de código abierto, sin emabargo, velorie, veloriev.f y demás marcas dentro de este mismo, son propiedad de sus respectivos dueños. Para su libre uso, por favor, remmplazar logos y marcas con las de su propia propiedad.
+### Este proyecto (la pagina web) es de libre uso y de código abierto, sin emabargo, velorie, veloriev.f y demás marcas dentro de este mismo, son propiedad de sus respectivos dueños. Para su libre uso, por favor, remmplazar logos y marcas con las de su propia propiedad.
