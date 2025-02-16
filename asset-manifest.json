@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/velorie.shop/static/css/main.51d8dc17.css",
-    "main.js": "/velorie.shop/static/js/main.350f5b42.js",
-    "static/media/lipstick.png": "/velorie.shop/static/media/lipstick.95e68b648c5e1423ad1e.png",
-    "static/media/bg1.jpg": "/velorie.shop/static/media/bg1.8b3b830ebf48e6294d19.jpg",
-    "static/media/rimel.png": "/velorie.shop/static/media/rimel.1c4fdeed769d484fbe13.png",
-    "static/media/bg2.jpg": "/velorie.shop/static/media/bg2.73b4a290fe1ade6ce9a4.jpg",
-    "static/media/cosmetics.png": "/velorie.shop/static/media/cosmetics.377d6a64d3cb1cce31a2.png",
-    "static/media/bg4.jpg": "/velorie.shop/static/media/bg4.aa6bba51942a2725e07e.jpg",
-    "static/media/bg3.jpg": "/velorie.shop/static/media/bg3.642dcd2c0c23b4db2e19.jpg",
-    "static/media/dream-avenue.ttf": "/velorie.shop/static/media/dream-avenue.c5cd3fc9b0ec474ff098.ttf",
-    "static/media/Veloire__logo__MINI.png": "/velorie.shop/static/media/Veloire__logo__MINI.4321d85122a9e20cb20a.png",
-    "static/media/whatsapp.svg": "/velorie.shop/static/media/whatsapp.f453a0025b999036c789d338af788f2c.svg",
-    "static/media/phone.svg": "/velorie.shop/static/media/phone.74359848220089b80029b261bd64a121.svg",
-    "static/media/mail.svg": "/velorie.shop/static/media/mail.8aef6e8da32b2855085057fe539698e6.svg",
-    "static/media/instagram.svg": "/velorie.shop/static/media/instagram.a63c9476fa83b33ffc32894544c5ccb7.svg",
-    "index.html": "/velorie.shop/index.html",
-    "main.51d8dc17.css.map": "/velorie.shop/static/css/main.51d8dc17.css.map",
-    "main.350f5b42.js.map": "/velorie.shop/static/js/main.350f5b42.js.map"
+    "main.css": "/static/css/main.efba62a2.css",
+    "main.js": "/static/js/main.5135bb59.js",
+    "static/media/lipstick.png": "/static/media/lipstick.95e68b648c5e1423ad1e.png",
+    "static/media/bg1.jpg": "/static/media/bg1.8b3b830ebf48e6294d19.jpg",
+    "static/media/rimel.png": "/static/media/rimel.1c4fdeed769d484fbe13.png",
+    "static/media/bg2.jpg": "/static/media/bg2.73b4a290fe1ade6ce9a4.jpg",
+    "static/media/cosmetics.png": "/static/media/cosmetics.377d6a64d3cb1cce31a2.png",
+    "static/media/bg4.jpg": "/static/media/bg4.aa6bba51942a2725e07e.jpg",
+    "static/media/bg3.jpg": "/static/media/bg3.642dcd2c0c23b4db2e19.jpg",
+    "static/media/dream-avenue.ttf": "/static/media/dream-avenue.c5cd3fc9b0ec474ff098.ttf",
+    "static/media/Veloire__logo__MINI.png": "/static/media/Veloire__logo__MINI.4321d85122a9e20cb20a.png",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.f453a0025b999036c789d338af788f2c.svg",
+    "static/media/phone.svg": "/static/media/phone.74359848220089b80029b261bd64a121.svg",
+    "static/media/mail.svg": "/static/media/mail.8aef6e8da32b2855085057fe539698e6.svg",
+    "static/media/instagram.svg": "/static/media/instagram.a63c9476fa83b33ffc32894544c5ccb7.svg",
+    "index.html": "/index.html",
+    "main.efba62a2.css.map": "/static/css/main.efba62a2.css.map",
+    "main.5135bb59.js.map": "/static/js/main.5135bb59.js.map"
   },
   "entrypoints": [
-    "static/css/main.51d8dc17.css",
-    "static/js/main.350f5b42.js"
+    "static/css/main.efba62a2.css",
+    "static/js/main.5135bb59.js"
   ]
 }
